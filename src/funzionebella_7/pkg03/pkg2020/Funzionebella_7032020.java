@@ -192,7 +192,7 @@ public class Funzionebella_7032020 {
             System.out.println("sei fortunato!");
         }
         if (stessielementirestituito != 2) {
-            System.out.prinln("questi vettori non sono uguali...");
+            System.out.println("questi vettori non sono uguali...");
         }
 
         System.out.println("funzione 5!");                                      //funzione5

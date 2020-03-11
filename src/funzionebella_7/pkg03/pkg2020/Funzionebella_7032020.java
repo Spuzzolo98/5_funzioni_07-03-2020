@@ -33,8 +33,8 @@ public class Funzionebella_7032020 {
      * @param numeri
      * @return
      */
-    static int media(int vettore[], int numeri) {
-        int mediafatta = 0;
+    static double media(int vettore[], int numeri) {
+        double mediafatta = 0;
         for (int i = 0; i < numeri; i++) {
             mediafatta = mediafatta + vettore[i];
         }
@@ -140,7 +140,8 @@ public class Funzionebella_7032020 {
      */
     public static void main(String[] args) {
         int contaparivett[] = new int[100], mediavett[] = new int[100], palindromovett[] = new int[100], stessielementivett1[] = new int[100], stessielementivett2[] = new int[100], doppiovett[] = new int[100];
-        int contaparinumeri = 0, contaparicontati = 0, medianumeri = 0, mediafatta = 0, palindromonumeri = 0, palindromocontrollo = 0, stessielementirestituito = 0, stessielementinumeri = 0, doppionumeri = 0, doppiocontrollo = 0;
+        int contaparinumeri = 0, contaparicontati = 0, medianumeri = 0, palindromonumeri = 0, palindromocontrollo = 0, stessielementirestituito = 0, stessielementinumeri = 0, doppionumeri = 0, doppiocontrollo = 0;
+        double mediafatta=0;
         Scanner scannervar = new Scanner(System.in);
         Random randomvar = new Random();
 
